@@ -17,7 +17,6 @@ use Symfony\Component\Security\Core\SecurityContextInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Problematic\AclManagerBundle\Model\PermissionContextInterface;
 use Problematic\AclManagerBundle\Model\AclManagerInterface;
-use Problematic\AclManagerBundle\Model\ClassIdentity;
 
 /**
  * abstract class containing low-level functionality (plumbing) to be extended by production AclManager (porcelain)
